@@ -1,24 +1,150 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <title>Example</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Tom Elsey Portfolio</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
-      <link href="assets/styles/main.css" rel="stylesheet">
+      <link href="assets/css/main.css" rel="stylesheet">
       <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script src="assets/scripts/index.js" type="text/javascript" charset="utf-8" defer></script>
+      <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
     </head>
-    <body>
-      <h1> Portfolio Template </h1>
-      <p>working? About Me: Short blurb explaining who you are, and some background info
-Skills: All the skills you have that may be helpful on the job
-Contact info: LinkedIn, Github, city, email or contact form
-Resume: View and download
-Project Showcase: Feature your GA projects (more details below)</p>
-<p>Personal hobbies/interests
-Professional Timeline (a visual representation of your work history)
-Additional work samples (visual design, writing samples, a link to your photography blog)
-Relevant social profiles (Twitter, Instagram, if they highlight you professionally, not just what your meals look like)
-Blog posts (links to relevant articles you've published on platforms like Medium or LinkedIn)</p>
-    </body>
+    <body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+              <!-- <a href="index.html" class="logo">
+                <span class="symbol"><img src="images/IMG_3504.jpg" alt="" /></span>
+              </a> -->
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="images/TomElsey-SoftwareEngineer-Resume.pdf">Resume</a></li>
+							<li><a href="https://github.com/telsey-ai">GitHub</a></li>
+							<li><a href="https://www.linkedin.com/in/tom-w-elsey/">LinkedIn</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<header>
+                <div>
+                <a href="index.html" class="logo">
+                  <span class="symbol"><img id="face" src="images/IMG_3504.jpg" alt="" /></span>
+                </a>
+
+								<h1 id="face-title">Tom Elsey<br />
+								Full Stack Software Engineer</h1>
+                </div>
+								<p>I received my Bachelor's Degree in Applied Sciences from the University of Iowa and spent a few years working in Higher Education before realizing I wanted to drive change in my career through software development. I recently graduated from General Assembly's Software Engineering Immersive Program, where I built full stack web apps using combinations of React, Node.js, Express.js, Python and MongoDB.<br />
+                  <br />
+
+                As a newly minted full stack developer, I am looking for opportunities that will allow me to indulge my passion for problem-solving and further expand my skill set in software development.<br /><br />
+                Take a look at my projects bellow.</p>
+							</header>
+
+							<section class="tiles">
+                <article class="style2">
+									<span class="image">
+										<img src="images/chatClient.jpg" alt="" />
+									</span>
+									<a href="https://github.com/GA-The-Empire/project-stardust-client">
+										<h2>Project Stardust: Chat</h2>
+										<div class="content">
+											<p>Chat room for Death Star employees built on React with Socket.io.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style1">
+									<span class="image">
+										<img src="images/test2.jpg" alt="" />
+									</span>
+									<a href="https://telsey-ai.github.io/Survey-Client/#/">
+										<h2>Survey O-Clock</h2>
+										<div class="content">
+											<p>Platform for creating and taking surveys built on React.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style3">
+									<span class="image">
+										<img src="images/discBag.jpg" alt="" />
+									</span>
+									<a href="https://github.com/telsey-ai/project-2-client">
+										<h2>Discgolf Disc Tracker</h2>
+										<div class="content">
+											<p>.</p>
+										</div>
+									</a>
+								</article>
+							</section>
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>Get in touch</h2>
+								<form method="post" action="mailto:thomaswelsey@gmail.com?subject=Mail from Tom's Portfolio">
+									<div class="fields">
+										<div class="field half">
+											<input type="text" name="name" id="name" placeholder="Name" />
+										</div>
+										<div class="field half">
+											<input type="email" name="email" id="email" placeholder="Email" />
+										</div>
+										<div class="field">
+											<textarea name="message" id="message" placeholder="Message"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send" class="primary" /></li>
+									</ul>
+								</form>
+							</section>
+							<section>
+								<h2>Follow</h2>
+								<ul class="icons">
+									<li><a href="https://www.linkedin.com/in/tom-w-elsey/" class="icon brands style2 fa-linkedin"><span class="label">Twitter</span></a></li>
+									<li><a href="https://github.com/telsey-ai" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="mailto:thomaswelsey@gmail.com" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+                  <li><a href="images/TomElsey-SoftwareEngineer-Resume.pdf" class="icon solid style2 fa-file"><span class="label">Resume</span></a></li>
+								</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved</li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
